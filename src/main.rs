@@ -1,10 +1,10 @@
 #![no_std]
 #![no_main]
 #![feature(panic_info_message)]
-#[cfg(not(test))]
 
 mod lang_items;
 mod sbi;
+mod sync;
 
 #[macro_use]
 mod console;
